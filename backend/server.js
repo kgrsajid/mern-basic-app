@@ -21,7 +21,7 @@ app.use(helmet({
       styleSrc: ["'self'", "'unsafe-inline'"],
       imgSrc: ["'self'", "data:"],
       fontSrc: ["'self'", "data:"],
-      connectSrc: ["'self'"]
+      connectSrc: ["'self'", "https://mern.kazi.rocks"]
     }
   }
 }));
